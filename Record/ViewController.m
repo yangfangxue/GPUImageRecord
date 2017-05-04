@@ -134,7 +134,7 @@
     }
     NSURL  *exportUrl = [NSURL fileURLWithPath:cachePath];
     _url = exportUrl;
-    CGSize size = CGSizeMake(1920,1080);
+    CGSize size = CGSizeMake(1080,1920);
     __block AVAssetWriter *videoWriter = [[AVAssetWriter alloc] initWithURL:exportUrl
                                                                    fileType:AVFileTypeQuickTimeMovie
                                                                       error:nil];
